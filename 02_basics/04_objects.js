@@ -44,21 +44,31 @@ const user  = [{id: 1,
 user[1].email
 
 
-console.log(tinderUser2);
+// console.log(tinderUser2);
 
-console.log(Object.keys(tinderUser2)); //output is aaray so you can do loop function or etc
-console.log(Object.values(tinderUser2));
-console.log(Object(tinderUser2));
+// console.log(Object.keys(tinderUser2)); //output is aaray so you can do loop function or etc
+// console.log(Object.values(tinderUser2));
+// console.log(Object.entries(tinderUser2));
 
+// console.log(tinderUser2.hasOwnProperty('isLoggedIn'));
 
+// console.log(tinderUser2.hasOwnProperty('isLogged'));
 
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "khushi" 
+}
+// course.courseInstructor
+const {courseInstructor: Instructor} = course
+console.log(Instructor);
 
-
-
-
-
-
-
+//    {
+//     "name": "khushi",
+//     "coursename": "js in hindi",
+//     "price": "free"
+//    }
+           
 
 
 
