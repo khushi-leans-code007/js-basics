@@ -14,6 +14,7 @@ const  myTotal = myNums.reduce(function (acc, currval){
     return acc + currval
 }, 3)
 console.log(myTotal);
+console.log(myNums);
 
 
 
